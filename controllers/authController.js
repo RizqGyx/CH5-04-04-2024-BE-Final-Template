@@ -101,7 +101,7 @@ const login = async (req, res, next) => {
         data: token,
       });
     } else {
-      next(new ApiError("wrong password atau user gak ada", 400));
+      next(new ApiError("wrong password or user not found", 400));
     }
   } catch (err) {
     next(new ApiError(err.message, 500));

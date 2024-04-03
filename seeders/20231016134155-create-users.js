@@ -18,6 +18,15 @@ module.exports = {
         updatedAt: new Date(),
       },
       {
+        name: "Rizki",
+        address: "Bukittinggi",
+        age: 21,
+        role: "Admin",
+        shopId: shops[0].id,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
         name: "Syifa",
         address: "Yogya",
         age: 34,

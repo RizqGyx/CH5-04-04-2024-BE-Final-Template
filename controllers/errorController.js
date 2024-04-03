@@ -13,6 +13,6 @@ module.exports = {
   },
 
   onLost(req, res, next) {
-    next(new ApiError("Routes gak ada", 404));
+    next(new ApiError("Routes not found", 404));
   },
 };
