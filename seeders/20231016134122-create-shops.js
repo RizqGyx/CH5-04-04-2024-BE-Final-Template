@@ -10,6 +10,11 @@ module.exports = {
         updatedAt: new Date(),
       },
       {
+        name: "Toko Rizki",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
         name: "Toko Syifa",
         createdAt: new Date(),
         updatedAt: new Date(),

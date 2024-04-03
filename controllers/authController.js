@@ -80,7 +80,7 @@ const login = async (req, res, next) => {
     });
 
     if (user && bcrypt.compareSync(password, user.password)) {
-      //   token utk autentikasi
+      // token utk autentikasi
       const token = jwt.sign(
         {
           id: user.userId,
